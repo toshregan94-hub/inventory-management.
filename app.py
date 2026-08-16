@@ -73,4 +73,4 @@ def search_external_product():
     return jsonify({"status": 1, "product": product}), 200
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True
